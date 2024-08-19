@@ -22,6 +22,7 @@ namespace AngularJSAuthentication.API.Controllers
         }
 
         [Authorize]
+        [HttpGet]
         [Route("~/api/RefreshTokens/")]
         public IActionResult Get()
         {
@@ -30,6 +31,7 @@ namespace AngularJSAuthentication.API.Controllers
 
         //[Authorize(Users = "Admin")]
         [AllowAnonymous]
+        [HttpDelete]
         [Route("~/api/RefreshTokens/")]
         public async Task<IActionResult> Delete(string tokenId)
         {

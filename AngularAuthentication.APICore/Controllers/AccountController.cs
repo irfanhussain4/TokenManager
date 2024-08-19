@@ -15,6 +15,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNet.Identity;
 using System.Data.Entity;
+using System.Text;
 
 namespace AngularJSAuthentication.API.Controllers
 {
@@ -78,10 +79,13 @@ namespace AngularJSAuthentication.API.Controllers
                 //list of Claims - we only checking username - more claims can be added.
                 new Claim("username", Convert.ToString(username)),
             };
+              
+            var cred = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:SecretKey"])),
+                SecurityAlgorithms.HmacSha256);
 
-            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value));
-            var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
             var token = new JwtSecurityToken(
+                issuer: _configuration["JwtSettings:Issuer"],
+                audience: _configuration["JwtSettings:Audience"],
                 claims: claims,
                 expires: DateTime.Now.AddHours(2),
                 signingCredentials: cred
@@ -95,6 +99,7 @@ namespace AngularJSAuthentication.API.Controllers
 
         // POST api/Account/Register
         [AllowAnonymous]
+        [HttpPost]
         [Route("~/api/Account/Register")]
         public async Task<IActionResult> Register(UserModel userModel)
         {

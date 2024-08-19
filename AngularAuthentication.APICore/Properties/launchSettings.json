@@ -1,22 +1,15 @@
 {
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:65253",
-      "sslPort": 44504
-    }
-  },
   "profiles": {
     "AngularAuthentication.APICore": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7204;http://localhost:5204",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ProxyTo": "http://localhost:7204"
-      }
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7204;http://localhost:5204"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -25,6 +18,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ProxyTo": "http://localhost:7204"
       }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:65253",
+      "sslPort": 44504
     }
   }
 }

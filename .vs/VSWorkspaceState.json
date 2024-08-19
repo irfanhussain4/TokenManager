@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\AngularAuthentication.APICore",
+    "\\AngularAuthentication.APICore\\Controllers",
     "\\AngularJSAuthentication.API",
     "\\AngularJSAuthentication.API\\App_Start",
     "\\AngularJSAuthentication.Web"
   ],
-  "SelectedNode": "\\AngularJSAuthentication.API\\App_Start\\WebApiConfig.cs",
+  "SelectedNode": "\\AngularAuthentication.APICore\\Controllers\\OrdersController.cs",
   "PreviewInSolutionExplorer": false
 }

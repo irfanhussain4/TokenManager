@@ -13,6 +13,7 @@ namespace AngularJSAuthentication.API.Controllers
     [Route("api/Orders")]
     public class OrdersController : ControllerBase
     {
+        [HttpGet]
         [Authorize]
         [Route("~/api/Orders/")]
         public IActionResult Get()

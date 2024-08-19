@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\irfan\\source\\repos\\TokenManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23DFCFD5-B158-4C0D-9C31-5E9CB64C64CF}|AngularJSAuthentication.API\\AngularJSAuthentication.API.csproj|c:\\users\\irfan\\source\\repos\\tokenmanager\\angularjsauthentication.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23DFCFD5-B158-4C0D-9C31-5E9CB64C64CF}|AngularJSAuthentication.API\\AngularJSAuthentication.API.csproj|solutionrelative:angularjsauthentication.api\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|c:\\users\\irfan\\source\\repos\\tokenmanager\\angularauthentication.apicore\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|solutionrelative:angularauthentication.apicore\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|c:\\users\\irfan\\source\\repos\\tokenmanager\\angularauthentication.apicore\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|solutionrelative:angularauthentication.apicore\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|c:\\users\\irfan\\source\\repos\\tokenmanager\\angularauthentication.apicore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|solutionrelative:angularauthentication.apicore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|c:\\users\\irfan\\source\\repos\\tokenmanager\\angularauthentication.apicore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8EE07DD3-446D-4B7A-A9CF-832A87E876E5}|AngularAuthentication.APICore\\AngularAuthentication.APICore.csproj|solutionrelative:angularauthentication.apicore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,39 +39,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularJSAuthentication.API\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "AngularJSAuthentication.API\\App_Start\\WebApiConfig.cs",
-              "ToolTip": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularJSAuthentication.API\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "AngularJSAuthentication.API\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "AngularAuthentication.APICore\\Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "AngularAuthentication.APICore\\Controllers\\HealthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T12:37:48.017Z",
+              "WhenOpened": "2024-08-18T09:54:43.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AngularAuthentication.APICore\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AngularAuthentication.APICore\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-13T07:13:20.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "AngularAuthentication.APICore\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Controllers\\AccountController.cs",
               "RelativeToolTip": "AngularAuthentication.APICore\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwCAAAAAZAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAswFEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T15:44:07.543Z"
+              "WhenOpened": "2024-08-18T09:38:44.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "AngularAuthentication.APICore\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\irfan\\source\\repos\\TokenManager\\AngularAuthentication.APICore\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "AngularAuthentication.APICore\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T09:38:44.941Z",
+              "EditorCaption": ""
             }
           ]
         }
