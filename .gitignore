@@ -213,3 +213,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+/.vs/AngularJSAuthentication/FileContentIndex
+/.vs/AngularJSAuthentication/v17/.futdcache.v2
+/.vs/AngularJSAuthentication/v17/DocumentLayout.json
